@@ -6,11 +6,6 @@
 	<style type="text/css">
 		h1{text-align:center;}
 		h3{text-transform: uppercase;}
-		li{
-			overflow: hidden;
-			padding: 20px 0;
-			border-bottom:1px solid #eee;
-		}
 		ul{
 			margin:0;
 			padding:0;
@@ -22,11 +17,16 @@
 			background: #eee;
 			font-size: 18px;
 			transition: 0.25;
+
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			-ms-user-select:none;
+			user-select: none;
 		}
 		ul li:nth-child(odd){
 			background: #f9f9f9;
 		}
-		uli li:hover{
+		ul li:hover{
 			background: #ddd;
 		}
 	</style>
